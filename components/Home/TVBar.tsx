@@ -53,7 +53,7 @@ const TVBar = () => {
 
   return (
     <>
-      <Signature
+{/*       <Signature
         src="/signature.png"
         style={
           isBarFull ? { opacity: 1, transition: 'opacity 2s 2s ease' } : { opacity: 0, transition: 'opacity 0.3s ease' }
@@ -61,7 +61,7 @@ const TVBar = () => {
         height={70}
         width={150}
         alt="Signature of Samuel Adeoluwa"
-      />
+      /> */}
 
       <div className="spacer"></div>
 
@@ -117,11 +117,11 @@ const TVBar = () => {
 
 export default TVBar
 
-const Signature = styled(Image)`
-  margin: 1rem 0 0 auto;
-  pointer-events: none;
-  user-select: none;
-`
+// const Signature = styled(Image)`
+//   margin: 1rem 0 0 auto;
+//   pointer-events: none;
+//   user-select: none;
+// `
 
 const Knob = styled(motion.div)`
   --knob-border-width: 1px;
