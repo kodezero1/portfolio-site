@@ -10,7 +10,6 @@ const Links = [
   { href: '/', title: 'About' },
   { href: '/works', title: 'Works' },
   { href: '/articles', title: 'Articles' },
-  { href: '/art', title: 'Art' },
   { href: '/contact', title: 'Contact' },
 ]
 
