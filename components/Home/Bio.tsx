@@ -10,23 +10,17 @@ function Bio() {
       <motion.h1 variants={fade}>Samuel Adeoluwa</motion.h1>
 
       <motion.p variants={fade}>
-        Striving to create an <em>elegant</em> web experience for all.
+        Fullstack software <em>engineer</em>, building and maintaining websites and web applications for 4+ years using popular frameworks, libraries and tools. 
       </motion.p>
 
       <motion.hr variants={fade} />
 
-      <motion.p variants={fade}>Currently working on building the future of ecommerce at Electriq.</motion.p>
+{/*       <motion.p variants={fade}></motion.p> */}
 
       <motion.p variants={fade}>
-        When I&apos;m not in front of my laptop, I&apos;m either out cycling, lifting, or at a{' '}
-        <span className="giants-container">
-          iants{' '}
-          <span className="giants">
-            <Giants />
-          </span>
-        </span>{' '}
-        game. I also dabble with winemaking, <Link href="/art?tag=camera">photography</Link>, and learning how to think
-        and write better.
+        When I&apos;m not in front of my laptop, I&apos;m either reading, playing chess, or out cycling.
+        I also dabble with, <Link href="/art?tag=camera">photography</Link>, and learning how to think
+        and problem solve.
       </motion.p>
     </Description>
   )
