@@ -28,7 +28,7 @@ import SentfillWheel from '/public/img/projects/scentfill/wheel.webp'
 // Electriq Website
 import ElectriqHeroMain from '/public/img/projects/electriq-home/hero-main.png'
 import ElectriqWebsite from '/public/img/projects/electriq-home/homepage-composed.webp'
-// Lift Club
+// FitSync
 import LiftClubMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
 import LiftClubPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
 import LiftClubUserProfile from '/public/img/projects/liftclub/user-profile.png'
@@ -45,6 +45,40 @@ import LofiWavesDesktop from '/public/img/projects/lofiwaves/lofiwaves-desktop.j
 import LofiWavesMain from '/public/img/projects/lofiwaves/lofiwaves-main.jpeg'
 
 export const ProjectState: Project[] = [
+   {
+    title: 'FitSync',
+    date: 'Apr 2021',
+    tags: ['personal'],
+    desktopImgs: [LiftClubMain, LiftClubPurpose],
+    mobileImgs: [LiftClubUserProfile, LiftClubLog],
+    externalLink: 'https://fitness-sync.vercel.app/',
+    github: 'https://github.com/kodezero1/fitsync',
+    slug: 'FitSync',
+    summary: 'Track your workout progress with little effort and gain big insights',
+    details: [
+      {
+        title: 'Purpose',
+        description:
+          'FitSync is a social fitness app that gives you the power to find well structured workouts and track your progress as you improve.',
+      },
+      {
+        title: 'Join',
+        description:
+          'Best experienced as a lightweght PWA, meaning that there is no download required. By adding the web page to your home screen, users can access Lift Club and have a native-like app experience.',
+      },
+      {
+        title: 'Features',
+        description:
+          'Build workouts from an extensive list of default exercises, create your own exercises, organize workouts on a calendar to create a schedule to follow, and assemble teams where others can follow your routine, and more.',
+      },
+      {
+        title: 'Documantation',
+        description:
+          'Check out the README.md file in the Github repository for up-to-date documentation on how to install and use the app.',
+      },
+    ],
+  },
+  
   {
     title: 'Jukebox',
     date: 'Jun 2023',
@@ -156,39 +190,7 @@ export const ProjectState: Project[] = [
       },
     ],
   },
-  {
-    title: 'FitSync',
-    date: 'Apr 2021',
-    tags: ['personal'],
-    desktopImgs: [LiftClubMain, LiftClubPurpose],
-    mobileImgs: [LiftClubUserProfile, LiftClubLog],
-    externalLink: 'https://liftclub.app/',
-    github: 'https://github.com/kodezero1/fitsync',
-    slug: 'liftclub',
-    summary: 'Track your workout progress with little effort and gain big insights',
-    details: [
-      {
-        title: 'Purpose',
-        description:
-          'Lift club is a social fitness app that gives you the power to find well structured workouts and track your progress as you improve.',
-      },
-      {
-        title: 'Join',
-        description:
-          'Best experienced as a lightweght PWA, meaning that there is no download required. By adding the web page to your home screen, users can access Lift Club and have a native-like app experience.',
-      },
-      {
-        title: 'Features',
-        description:
-          'Build workouts from an extensive list of default exercises, create your own exercises, organize workouts on a calendar to create a schedule to follow, and assemble teams where others can follow your routine, and more.',
-      },
-      {
-        title: 'Documantation',
-        description:
-          'Check out the README.md file in the Github repository for up-to-date documentation on how to install and use the app.',
-      },
-    ],
-  },
+ 
   
   {
     title: 'NeoLogos',
