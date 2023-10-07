@@ -86,7 +86,7 @@ export const ProjectState: Project[] = [
     tags: ['personal'],
     desktopImgs: [LofiWavesMain, LofiWavesDesktop],
     mobileImgs: [],
-    externalLink: 'http://lofiwaves.surge.sh/',
+    externalLink: 'https://lofiwaves.netlify.app/',
     github: 'https://github.com/kodezero1/LofiWaves',
     slug: 'lofiwaves',
     summary: 'Like lofi? So do I, so why not checkout out some of my faves here',
