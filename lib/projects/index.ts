@@ -7,13 +7,6 @@ import JukeboxLibrary from '/public/img/projects/jukebox/library.webp'
 import JukeboxShortcuts from '/public/img/projects/jukebox/shortcuts.webp'
 // QwikDraw
 import QwikDesignHero from '/public/img/projects/qwikdraw/design-hero.webp'
-//Scentfill
-import ScentfillCarouselMobile from '/public/img/projects/scentfill/carousel.webp'
-import SentfillCollage from '/public/img/projects/scentfill/collage.webp'
-import SentfillPDPMobile from '/public/img/projects/scentfill/pdp-mobile.webp'
-import SentfillPDP from '/public/img/projects/scentfill/pdp.webp'
-import SentfillScents from '/public/img/projects/scentfill/scents.webp'
-import SentfillWheel from '/public/img/projects/scentfill/wheel.webp'
 // FitSync
 import LiftClubMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
 import LiftClubPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
@@ -142,18 +135,6 @@ export const ProjectState: Project[] = [
     ],
   },
 
-  {
-    title: 'Scentfill',
-    date: 'Jul 2022',
-    tags: ['commercial'],
-    desktopImgs: [SentfillCollage, SentfillWheel, SentfillPDP],
-    mobileImgs: [SentfillPDPMobile, ScentfillCarouselMobile, SentfillScents],
-    externalLink: 'https://scentfill.com/',
-    slug: 'scentfill',
-    summary: '...another favorite client',
-    details: [],
-  },
- 
   {
     title: 'Music Player',
     date: 'Jan 2021',
