@@ -126,7 +126,7 @@ export const ProjectState: Project[] = [
     mobileImgs: [NextEcomMobile1, NextEcomMobile2],
     externalLink: 'https://nextjs-ecom-store-lake.vercel.app/',
     github: 'https://github.com/kodezero1/Nextjs-Ecom-Store',
-    slug: 'Ecom-store',
+    slug: 'Ecom',
     summary: 'A Nextjs ecom store that uses Sanity as a CMS',
     details: [
       {
@@ -149,7 +149,7 @@ export const ProjectState: Project[] = [
     mobileImgs: [],
     externalLink: 'https://vuejs-crypto-dashboard.netlify.app/',
     github: 'https://github.com/kodezero1/Vue-Crypto-Dashboard',
-    slug: 'Vue-dashboard',
+    slug: 'Vue',
     summary: 'A crypto dashboard created in Vue using the coingecko api',
     details: [
       {
@@ -171,7 +171,7 @@ export const ProjectState: Project[] = [
     mobileImgs: [],
     externalLink: 'https://vue-insurance-landing-page.netlify.app/',
     github: 'https://github.com/kodezero1/Vue-Insurance-Landing-Page',
-    slug: 'vue-landing-page',
+    slug: 'insurance',
     summary: 'An insurance company landing page built with Vue js',
     details: [
       {
