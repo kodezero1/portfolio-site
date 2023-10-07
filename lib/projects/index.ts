@@ -25,9 +25,6 @@ import SentfillPDPMobile from '/public/img/projects/scentfill/pdp-mobile.webp'
 import SentfillPDP from '/public/img/projects/scentfill/pdp.webp'
 import SentfillScents from '/public/img/projects/scentfill/scents.webp'
 import SentfillWheel from '/public/img/projects/scentfill/wheel.webp'
-// Electriq Website
-import ElectriqHeroMain from '/public/img/projects/electriq-home/hero-main.png'
-import ElectriqWebsite from '/public/img/projects/electriq-home/homepage-composed.webp'
 // FitSync
 import LiftClubMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
 import LiftClubPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
@@ -155,31 +152,7 @@ export const ProjectState: Project[] = [
       },
     ],
   },
-  {
-    title: 'Electriq Dashboard',
-    date: 'Jul 2022',
-    tags: ['commercial'],
-    desktopImgs: [DashboardComposed, GanttChart, KanbanChart],
-    mobileImgs: [Calendar],
-    externalLink: 'https://electriq.app/',
-    slug: 'electriq-app',
-    summary: 'Visualize and manage Linear projects with timelines, kanbans, calendars, and much more',
-    details: [
-      {
-        title: 'Purpose',
-        description: 'A project management app that provides insights into Linear projects through data visualization.',
-      },
-      {
-        title: 'Reason',
-        description:
-          "Linear doesn't have timelines for projects and doesn't plan to add them. This does that and more.",
-      },
-      {
-        title: 'Features',
-        description: 'The ability to send live feedback to the teams in charge is built in and incredibly intuitive.',
-      },
-    ],
-  },
+
   {
     title: 'Soylent',
     date: '2022-2023',
