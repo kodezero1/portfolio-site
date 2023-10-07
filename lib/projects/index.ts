@@ -1,7 +1,5 @@
 import { Project } from '../../types'
 
-// QwikDraw
-import QwikDesignHero from '/public/img/projects/qwikdraw/design-hero.webp'
 // FitSync
 import LiftClubMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
 import LiftClubPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
@@ -78,36 +76,6 @@ export const ProjectState: Project[] = [
         title: 'Deployment',
         description:
           'For this project, I choose to use Heroku as my hosting service as they have a great system for deploying right when you commit to github',
-      },
-    ],
-  },
-  
-  {
-    title: 'QwikDraw',
-    date: 'Apr 2023',
-    tags: ['personal'],
-    desktopImgs: [QwikDesignHero],
-    mobileImgs: [],
-    externalLink: 'https://qwikdraw.app/',
-    github: 'https://github.com/kodezero1/qwikdraw',
-    slug: 'qwikdraw',
-    summary: 'A simple web-based design canvas built using the Qwik framework',
-    details: [
-      {
-        title: 'Objective',
-        description:
-          "The only real objective with this was to take a completely new framework, Qwik, and build something challenging. It initially started as a grid-like shape builder, but that didn't look great so it morphed into a shape and image based design tool of sorts.",
-      },
-      {
-        title: 'Challenges',
-        description:
-          'One requirement for this project was to not use any external libraries other than the frontend framework itself. Some of the more challenging parts were the color picker, zooming/panning, keyboard shortcuts, and resizing elements.',
-        // I wrote an article on the details of those features that can be found <a href="/articles/challenges-of-building-a-design-tool">here</a>.s
-      },
-      {
-        title: 'Future',
-        description:
-          "I'd like to be able to multi-select and rearrange elements as well as add triangles. Currently using DOM elements for shapes. Considering a rewrite using canvas (WebGL?), but I'm having fun :P",
       },
     ],
   },
