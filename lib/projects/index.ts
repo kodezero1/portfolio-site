@@ -47,7 +47,7 @@ import LofiWavesMain from '/public/img/projects/lofiwaves/lofiwaves-main.jpeg'
 export const ProjectState: Project[] = [
    {
     title: 'FitSync',
-    date: 'Apr 2021',
+    date: 'Jul 2023',
     tags: ['personal'],
     desktopImgs: [LiftClubMain, LiftClubPurpose],
     mobileImgs: [LiftClubUserProfile, LiftClubLog],
@@ -64,7 +64,7 @@ export const ProjectState: Project[] = [
       {
         title: 'Join',
         description:
-          'Best experienced as a lightweght PWA, meaning that there is no download required. By adding the web page to your home screen, users can access Lift Club and have a native-like app experience.',
+          'Best experienced as a lightweght PWA, meaning that there is no download required. By adding the web page to your home screen, users can access FitSync and have a native-like app experience.',
       },
       {
         title: 'Features',
@@ -81,7 +81,7 @@ export const ProjectState: Project[] = [
 
     {
     title: 'NeoLogos',
-    date: 'Feb 2021',
+    date: 'Oct 2023',
     tags: ['personal'],
     desktopImgs: [NeoLogosMain, NeoLogosDesktop1, NeoLogosDesktop2, NeoLogosDesktop3],
     mobileImgs: [NeoLogosMobile1, NeoLogosMobile2],
