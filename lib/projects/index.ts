@@ -1,10 +1,10 @@
 import { Project } from '../../types'
 
 // FitSync
-import FitSyncMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
-import FitSyncPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
-import FitSyncUserProfile from '/public/img/projects/liftclub/user-profile.png'
-import FitSyncLog from '/public/img/projects/liftclub/workout-log-2.png'
+import LiftClubMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
+import LiftClubPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
+import LiftClubUserProfile from '/public/img/projects/liftclub/user-profile.png'
+import LiftClubLog from '/public/img/projects/liftclub/workout-log-2.png'
 // NeoLogos
 import NeoLogosDesktop1 from '/public/img/projects/neologos/neologos-desktop1.jpg'
 import NeoLogosDesktop2 from '/public/img/projects/neologos/neologos-desktop2.jpg'
@@ -32,8 +32,8 @@ export const ProjectState: Project[] = [
     title: 'FitSync',
     date: 'Jul 2023',
     tags: ['personal'],
-    desktopImgs: [FitSyncMain, FitSyncPurpose],
-    mobileImgs: [FitSyncUserProfile, FitSyncLog],
+    desktopImgs: [LiftClubMain, LiftClubPurpose],
+    mobileImgs: [LiftClubUserProfile, LiftClubLog],
     externalLink: 'https://fitness-sync.vercel.app/',
     github: 'https://github.com/kodezero1/fitsync',
     slug: 'FitSync',
