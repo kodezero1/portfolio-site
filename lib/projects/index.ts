@@ -78,6 +78,35 @@ export const ProjectState: Project[] = [
       },
     ],
   },
+
+    {
+    title: 'NeoLogos',
+    date: 'Feb 2021',
+    tags: ['personal'],
+    desktopImgs: [NeoLogosMain, NeoLogosDesktop1, NeoLogosDesktop2, NeoLogosDesktop3],
+    mobileImgs: [NeoLogosMobile1, NeoLogosMobile2],
+    // externalLink: "https://neologos.herokuapp.com/",
+    github: 'https://github.com/kodezero1/NeoLogos',
+    slug: 'neologos',
+    summary: 'Ever made of a word for something? Well now you know where to put it.',
+    details: [
+      {
+        title: 'Front-end',
+        description:
+          'I used React and Redux as the building blocks for creating the front-end and managing the state of the site. Also, the site features a night mode and is completely mobile friendly.',
+      },
+      {
+        title: 'Back-end',
+        description:
+          'For the back-end, I used a combination of Express and Mongoose create my server and schemas for my database.',
+      },
+      {
+        title: 'Deployment',
+        description:
+          'For this project, I choose to use Heroku as my hosting service as they have a great system for deploying right when you commit to github',
+      },
+    ],
+  },
   
   {
     title: 'Jukebox',
@@ -192,34 +221,7 @@ export const ProjectState: Project[] = [
   },
  
   
-  {
-    title: 'NeoLogos',
-    date: 'Feb 2021',
-    tags: ['personal'],
-    desktopImgs: [NeoLogosMain, NeoLogosDesktop1, NeoLogosDesktop2, NeoLogosDesktop3],
-    mobileImgs: [NeoLogosMobile1, NeoLogosMobile2],
-    // externalLink: "https://neologos.herokuapp.com/",
-    github: 'https://github.com/kodezero1/NeoLogos',
-    slug: 'neologos',
-    summary: 'Ever made of a word for something? Well now you know where to put it.',
-    details: [
-      {
-        title: 'Front-end',
-        description:
-          'I used React and Redux as the building blocks for creating the front-end and managing the state of the site. Also, the site features a night mode and is completely mobile friendly.',
-      },
-      {
-        title: 'Back-end',
-        description:
-          'For the back-end, I used a combination of Express and Mongoose create my server and schemas for my database.',
-      },
-      {
-        title: 'Deployment',
-        description:
-          'For this project, I choose to use Heroku as my hosting service as they have a great system for deploying right when you commit to github',
-      },
-    ],
-  },
+ 
   {
     title: 'Music Player',
     date: 'Jan 2021',
