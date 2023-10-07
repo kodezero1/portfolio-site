@@ -57,7 +57,7 @@ export const ProjectState: Project[] = [
     tags: ['personal'],
     desktopImgs: [NeoLogosMain, NeoLogosDesktop1, NeoLogosDesktop2, NeoLogosDesktop3],
     mobileImgs: [NeoLogosMobile1, NeoLogosMobile2],
-    // externalLink: "https://neologos.herokuapp.com/",
+    externalLink: "https://neologos.herokuapp.com/",
     github: 'https://github.com/kodezero1/NeoLogos',
     slug: 'neologos',
     summary: 'Ever made of a word for something? Well now you know where to put it.',
