@@ -1,10 +1,5 @@
 import { Project } from '../../types'
 
-// Jukebox
-import JukeboxArtists from '/public/img/projects/jukebox/artists.webp'
-import JukeboxCollage from '/public/img/projects/jukebox/collage.webp'
-import JukeboxLibrary from '/public/img/projects/jukebox/library.webp'
-import JukeboxShortcuts from '/public/img/projects/jukebox/shortcuts.webp'
 // QwikDraw
 import QwikDesignHero from '/public/img/projects/qwikdraw/design-hero.webp'
 // FitSync
@@ -87,24 +82,6 @@ export const ProjectState: Project[] = [
     ],
   },
   
-  {
-    title: 'Jukebox',
-    date: 'Jun 2023',
-    tags: ['personal'],
-    desktopImgs: [JukeboxCollage, JukeboxLibrary, JukeboxArtists, JukeboxShortcuts],
-    mobileImgs: [],
-    externalLink: 'https://github.com/kodezero1/jukebox/releases',
-    github: 'https://github.com/kodezero1/jukebox',
-    slug: 'jukebox',
-    summary: 'Keyboard-centric desktop music player made with Tauri + Qwik',
-    details: [
-      {
-        title: 'Current Project',
-        description:
-          'This project is a current work in progress. Check out the project readme for more information about the app and how to install it to use yourself.',
-      },
-    ],
-  },
   {
     title: 'QwikDraw',
     date: 'Apr 2023',
