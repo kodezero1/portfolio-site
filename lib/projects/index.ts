@@ -1,10 +1,10 @@
 import { Project } from '../../types'
 
 // FitSync
-import LiftClubMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
-import LiftClubPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
-import LiftClubUserProfile from '/public/img/projects/liftclub/user-profile.png'
-import LiftClubLog from '/public/img/projects/liftclub/workout-log-2.png'
+import FitSyncMain from '/public/img/projects/liftclub/liftclub-main.jpeg'
+import FitSyncPurpose from '/public/img/projects/liftclub/liftclub-purpose.png'
+import FitSyncUserProfile from '/public/img/projects/liftclub/user-profile.png'
+import FitSyncLog from '/public/img/projects/liftclub/workout-log-2.png'
 // NeoLogos
 import NeoLogosDesktop1 from '/public/img/projects/neologos/neologos-desktop1.jpg'
 import NeoLogosDesktop2 from '/public/img/projects/neologos/neologos-desktop2.jpg'
@@ -15,14 +15,25 @@ import NeoLogosMobile2 from '/public/img/projects/neologos/neologos-mobile2.jpg'
 // LofiWaves
 import LofiWavesDesktop from '/public/img/projects/lofiwaves/lofiwaves-desktop.jpg'
 import LofiWavesMain from '/public/img/projects/lofiwaves/lofiwaves-main.jpeg'
+// Nextjs Ecom
+import NextEcomDesktop from '/public/img/projects/nextjs-Ecom/lofiwaves-desktop.jpg'
+import NextEcomMain from '/public/img/projects/nextjs-Ecom/next-ecom-main.png'
+import NextEcomMobile1 from '/public/img/projects/nextjs-Ecom/next-ecom-mobile1.png'
+import NextEcomMobile2 from '/public/img/projects/nextjs-Ecom/next-ecom-mobile2.png'
+// Vue crypto dashboard
+import VueCryptoDesktop from '/public/img/projects/vue-crypto-dash/vue-crypto-desktop.png'
+import VueCryptoMain from '/public/img/projects/vue-crypto-dash/vue-crypto-main.png'
+// Vue landing page
+import VueInsuranceDesktop from '/public/img/projects/vue-landing-page/vue-insurance-desktop.png'
+import VueInsuranceMain from '/public/img/projects/vue-landing-page/vue-Insurance-main.png'
 
 export const ProjectState: Project[] = [
    {
     title: 'FitSync',
     date: 'Jul 2023',
     tags: ['personal'],
-    desktopImgs: [LiftClubMain, LiftClubPurpose],
-    mobileImgs: [LiftClubUserProfile, LiftClubLog],
+    desktopImgs: [FitSyncMain, FitSyncPurpose],
+    mobileImgs: [FitSyncUserProfile, FitSyncLog],
     externalLink: 'https://fitness-sync.vercel.app/',
     github: 'https://github.com/kodezero1/fitsync',
     slug: 'FitSync',
@@ -104,6 +115,68 @@ export const ProjectState: Project[] = [
         title: 'Custom controls',
         description:
           'The app features autoplay and easy-to-use controls for the music player as well as a fully optimized mobile site.',
+      },
+    ],
+  },
+  {
+    title: 'Nextjs Ecom Site',
+    date: 'Oct 2023',
+    tags: ['personal'],
+    desktopImgs: [NextEcomMain, NextEcomDesktop],
+    mobileImgs: [NextEcomMobile1, NextEcomMobile2],
+    externalLink: 'https://nextjs-ecom-store-lake.vercel.app/',
+    github: 'https://github.com/kodezero1/Nextjs-Ecom-Store',
+    slug: 'Ecom-store',
+    summary: 'A Nextjs ecom store that uses Sanity as a CMS',
+    details: [
+      {
+        title: 'Front-end',
+        description: 'This project was written in Nextjs using tools such as: react-hot-toast, react icons, iconsswiper js, canvas-confetti.',
+      },
+      {
+        title: 'CMS',
+        description:
+          'Sanity is a customizable solution that treats content as data to power digital business.',
+      },
+      
+    ],
+  },
+  {
+    title: 'Vue Crypto Dashboard',
+    date: 'Sep 2023',
+    tags: ['personal'],
+    desktopImgs: [VueCryptoMain, VueCryptoDesktop],
+    mobileImgs: [],
+    externalLink: 'https://vuejs-crypto-dashboard.netlify.app/',
+    github: 'https://github.com/kodezero1/Vue-Crypto-Dashboard',
+    slug: 'Vue-dashboard',
+    summary: 'A crypto dashboard created in Vue using the coingecko api',
+    details: [
+      {
+        title: 'Front-end',
+        description: 'A crypto dahboard built in Nuxt that shows top cryptocurrencies based on currency price, market capitalization and overall circulating supply. ALso you can as well see the trending coins and the market exchange rate',
+      },
+      {
+        title: 'Api library',
+        description:
+          'It uses the coingecko api to list the coins and their value',
+      },
+    ],
+  },
+  {
+    title: 'Vue Insurance Landing Page',
+    date: 'Aug 2023',
+    tags: ['personal'],
+    desktopImgs: [VueInsuranceMain, VueInsuranceDesktop],
+    mobileImgs: [],
+    externalLink: 'https://vue-insurance-landing-page.netlify.app/',
+    github: 'https://github.com/kodezero1/Vue-Insurance-Landing-Page',
+    slug: 'vue-landing-page',
+    summary: 'An insurance company landing page built with Vue js',
+    details: [
+      {
+        title: 'Front-end',
+        description: 'This project was written entirely in Vue',
       },
     ],
   },
