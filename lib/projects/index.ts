@@ -7,11 +7,6 @@ import JukeboxLibrary from '/public/img/projects/jukebox/library.webp'
 import JukeboxShortcuts from '/public/img/projects/jukebox/shortcuts.webp'
 // QwikDraw
 import QwikDesignHero from '/public/img/projects/qwikdraw/design-hero.webp'
-// Electriq Dashboard
-import Calendar from '/public/img/projects/electriq-app/calendar.png'
-import DashboardComposed from '/public/img/projects/electriq-app/dashboard-composed.webp'
-import GanttChart from '/public/img/projects/electriq-app/gantt-chart.png'
-import KanbanChart from '/public/img/projects/electriq-app/kanban-chart.webp'
 //Scentfill
 import ScentfillCarouselMobile from '/public/img/projects/scentfill/carousel.webp'
 import SentfillCollage from '/public/img/projects/scentfill/collage.webp'
@@ -158,25 +153,6 @@ export const ProjectState: Project[] = [
     summary: '...another favorite client',
     details: [],
   },
-  {
-    title: "Electriq's Website",
-    date: 'Feb 2022',
-    tags: ['commercial'],
-    desktopImgs: [ElectriqWebsite, ElectriqHeroMain],
-    mobileImgs: [],
-    externalLink: 'https://www.electriqmarketing.com/',
-    slug: 'electriq-home',
-    summary: "Collaborated with the agency's in-house design team to craft the rebranding of Electriq",
-    details: [
-      {
-        title: 'Purpose',
-        description:
-          "React web application to give PM's and clients the ability to visualize the progress and make changes to the web department's projects.",
-      },
-    ],
-  },
- 
-  
  
   {
     title: 'Music Player',
