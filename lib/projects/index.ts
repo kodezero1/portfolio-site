@@ -12,12 +12,6 @@ import Calendar from '/public/img/projects/electriq-app/calendar.png'
 import DashboardComposed from '/public/img/projects/electriq-app/dashboard-composed.webp'
 import GanttChart from '/public/img/projects/electriq-app/gantt-chart.png'
 import KanbanChart from '/public/img/projects/electriq-app/kanban-chart.webp'
-// Soylent
-import SoylentCarousel from '/public/img/projects/soylent/carousel.webp'
-import SoylentCollage from '/public/img/projects/soylent/collage.webp'
-import SoylentCollection from '/public/img/projects/soylent/collection.webp'
-import SoylentHomepage from '/public/img/projects/soylent/homepage.webp'
-import SoylentPDP from '/public/img/projects/soylent/pdp.webp'
 //Scentfill
 import ScentfillCarouselMobile from '/public/img/projects/scentfill/carousel.webp'
 import SentfillCollage from '/public/img/projects/scentfill/collage.webp'
@@ -153,17 +147,6 @@ export const ProjectState: Project[] = [
     ],
   },
 
-  {
-    title: 'Soylent',
-    date: '2022-2023',
-    tags: ['commercial'],
-    desktopImgs: [SoylentCollage, SoylentCarousel, SoylentPDP, SoylentCollection, SoylentHomepage],
-    mobileImgs: [],
-    externalLink: 'https://soylent.com/',
-    slug: 'soylent',
-    summary: 'Showcasing one of my favorite clients',
-    details: [],
-  },
   {
     title: 'Scentfill',
     date: 'Jul 2022',
