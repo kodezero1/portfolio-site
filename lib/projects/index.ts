@@ -21,8 +21,8 @@ import NextEcomMain from '/public/img/projects/nextjs-Ecom/next-ecom-main.png'
 import NextEcomMobile1 from '/public/img/projects/nextjs-Ecom/next-ecom-mobile1.png'
 import NextEcomMobile2 from '/public/img/projects/nextjs-Ecom/next-ecom-mobile2.png'
 // Vue crypto dashboard
-import VueCryptoDesktop from '/public/img/projects/vue-crypto-dash/vue-crypto-desktop.png'
-import VueCryptoMain from '/public/img/projects/vue-crypto-dash/vue-crypto-main.png'
+import VueCryptoDesktop from '/public/img/projects/vue-cypto-dash/vue-crypto-desktop.png'
+import VueCryptoMain from '/public/img/projects/vue-cypto-dash/vue-crypto-main.png'
 // Vue landing page
 import VueInsuranceDesktop from '/public/img/projects/vue-landing-page/vue-insurance-desktop.png'
 import VueInsuranceMain from '/public/img/projects/vue-landing-page/vue-Insurance-main.png'
