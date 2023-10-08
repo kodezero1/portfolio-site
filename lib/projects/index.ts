@@ -16,7 +16,7 @@ import NeoLogosMobile2 from '/public/img/projects/neologos/neologos-mobile2.jpg'
 import LofiWavesDesktop from '/public/img/projects/lofiwaves/lofiwaves-desktop.jpg'
 import LofiWavesMain from '/public/img/projects/lofiwaves/lofiwaves-main.jpeg'
 // Nextjs Ecom
-import NextEcomDesktop from '/public/img/projects/nextjs-Ecom/next-ecom-desktop.jpg'
+import NextEcomDesktop from '/public/img/projects/nextjs-Ecom/next-ecom-desktop.png'
 import NextEcomMain from '/public/img/projects/nextjs-Ecom/next-ecom-main.png'
 import NextEcomMobile1 from '/public/img/projects/nextjs-Ecom/next-ecom-mobile1.png'
 import NextEcomMobile2 from '/public/img/projects/nextjs-Ecom/next-ecom-mobile2.png'
